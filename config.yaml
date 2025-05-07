@@ -1,0 +1,21 @@
+tax_config:
+  rebate_limit: 1200000
+  rebate_amount: 75000
+  cess_rate: 0.04
+  usd_inr: 85
+
+tax_slabs:
+  - limit: 400000
+    rate: 0.0
+  - limit: 800000
+    rate: 0.05
+  - limit: 1200000
+    rate: 0.10
+  - limit: 1600000
+    rate: 0.15
+  - limit: 2000000
+    rate: 0.20
+  - limit: 2400000
+    rate: 0.25
+  - limit: inf
+    rate: 0.30
